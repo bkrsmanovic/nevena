@@ -1,0 +1,61 @@
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+
+# track .editorconfig file (i.e. do NOT ignore it)
+!.editorconfig
+
+# ignore node/grunt dependency directories
+node_modules/
+
+#ignore wp-config
+wp-config.php
+
+# Ignore all files that start with ~
+~*
+
+# Ignore README.md
+README.md
+
+# Ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.sass-cache
+
+# Ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignore desktop.ini
+desktop.ini
+
+# Ignore everything in the "wp-content" directory, except:
+# "plugins" directory
+# "themes" directory
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+!wp-content/uploads/

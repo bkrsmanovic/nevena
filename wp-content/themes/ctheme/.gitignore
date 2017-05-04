@@ -1,0 +1,3 @@
+# Ignore compiled css and css map
+style.css
+style.css.map
